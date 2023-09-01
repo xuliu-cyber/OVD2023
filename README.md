@@ -76,7 +76,7 @@ python tools/train.py faster-rcnn-config-1.py --work-dir workdir/pre
 python tools/train.py faster-rcnn-config-2.py --work-dir workdir/final
 ```
 
-使用微调好的模型对测试集图片进行检测，保存json结果到./final_results目录下，方便后续处理。（结果文件已经提前生成）
+使用微调好的模型对测试集图片进行检测，保存json结果到./final_results目录下，方便后续处理。
 ```
 python demo/image_demo.py ../data/final/data_final_contest/test/ faster-rcnn-config-2.py --weights workdir/final/epoch_1.pth --no-save-vis True
 ```
