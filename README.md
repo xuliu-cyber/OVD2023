@@ -97,3 +97,6 @@ cd mmdetection
 python demo/eval.py
 ```
 
+## Acknowledgements
+This code is based on [mmdetection](https://github.com/open-mmlab/mmdetection), [Chinese CLIP](https://github.com/OFA-Sys/Chinese-CLIP).
+
